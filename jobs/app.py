@@ -1,6 +1,7 @@
 from asyncio import open_connection
 from multiprocessing import connection
-from flask import Flask, render_template, g, datetime, request, redirect, url_for
+from flask import Flask, render_template, g, request, redirect, url_for
+import datetime
 import sqlite3
 
 PATH = 'db/jobs.sqlite'
